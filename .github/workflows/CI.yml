@@ -30,8 +30,8 @@ jobs:
         with:
           node-version: latest # replace with your desired Node.js version
       - name: Install dependencies
-        run: npm install # replace with your desired package manager
+        run: yarn install # replace with your desired package manager
       - name: Build app
-        run: npx react-native run-ios --verbose # replace with your desired build command
+        run: yarn build # replace with your desired build command
       - name: Run tests
-        run: npx jest # replace with your desired test command
+        run: yarn test # replace with your desired test command

@@ -31,6 +31,8 @@ jobs:
           node-version: '20.x' # replace with your desired Node.js version
       - name: Install dependencies
         run: npm install # replace with your desired package manager
+      - name: Display versions
+        run: npm list @react-native-community/cli-tools
       - name: Build app
         run: npx react-native run-ios # replace with your desired build command
       - name: Run tests

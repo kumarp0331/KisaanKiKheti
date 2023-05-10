@@ -32,6 +32,6 @@ jobs:
       - name: Install dependencies
         run: npm install # replace with your desired package manager
       - name: Build app
-        run: npx react-native run-ios --configuration Release # replace with your desired build command
+        run: npx react-native run-ios # replace with your desired build command
       - name: Run tests
         run: npx jest # replace with your desired test command
